@@ -1,24 +1,53 @@
-# SWYNEX-End-To-End-ML-Project
-🎉 Successfully Completed Task 4 of My Machine Learning Internship at SWYNEX Technologies!
+# SWYNEX End-to-End Machine Learning Project
 
-I’m happy to share that I have completed my End-to-End Machine Learning Project using the Titanic dataset.
+## Project Overview
 
-💻 Project Highlights:
-🔹 Data loading and exploration using Pandas
-🔹 Data preprocessing and handling missing values
-🔹 Feature selection and data scaling
-🔹 Model training using Logistic Regression
-🔹 Model evaluation using accuracy, a classification report, and a confusion matrix
-🔹 Making predictions for a sample passenger
+This project demonstrates a complete end-to-end machine learning workflow using the Titanic dataset. The project covers data preprocessing, model training, evaluation, and prediction.
 
-🛠️ Technologies Used: Python, Pandas, Scikit-learn, Google Colab, and GitHub.
+## Objective
 
-This project helped me gain practical experience with the complete machine learning workflow, from data preprocessing to model training, evaluation, and prediction.
+The objective of this project is to build a machine learning classification model that predicts whether a passenger survived the Titanic disaster.
 
-I’m grateful to SWYNEX Technologies for this learning opportunity and look forward to developing more practical projects and improving my skills in Machine Learning.
+## Technologies Used
 
-📂 GitHub Project: [Paste your GitHub repository link here]
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Scikit-learn
+- GitHub
 
-🎥 Project Demonstration: See the attached video.
+## Dataset
 
-#SWYNEX #MachineLearning #Python #DataScience #ArtificialIntelligence #Internship #LogisticRegression #LearningByDoing
+The Titanic dataset contains information about passengers, including passenger class, gender, age, number of siblings/spouses, number of parents/children, fare, and survival status.
+
+## Data Preprocessing
+
+The dataset was inspected for missing values and relevant features were selected. Missing values in Age and Fare were handled using median values. The Sex column was converted into numerical values. The data was then divided into training and testing sets.
+
+## Machine Learning Model
+
+A Logistic Regression classification model was trained using the preprocessed training data.
+
+## Model Evaluation
+
+The model was evaluated using:
+
+- Accuracy
+- Classification Report
+- Confusion Matrix
+
+The model was also used to make a prediction for a new passenger.
+
+## Results
+
+The trained model successfully generated predictions on the test data. The evaluation results are displayed in the Google Colab notebook.
+
+## Project Files
+
+- `SWYNEX_End_to_End_ML_Project.ipynb` - Complete machine learning notebook
+- `README.md` - Project documentation
+
+## Conclusion
+
+This project demonstrates the complete machine learning workflow from data preprocessing to model training, evaluation, and prediction.
